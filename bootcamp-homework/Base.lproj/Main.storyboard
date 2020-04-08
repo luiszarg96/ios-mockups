@@ -328,6 +328,9 @@
                                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wjx-Pq-YjD">
                                                                     <rect key="frame" x="328" y="7" width="66" height="30"/>
                                                                     <state key="normal" title="Ver todos"/>
+                                                                    <connections>
+                                                                        <segue destination="x6j-yN-tU7" kind="show" id="dUe-Wd-aLE"/>
+                                                                    </connections>
                                                                 </button>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ULTIMOS MOVIMIENTOS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rQz-Dc-HG5">
                                                                     <rect key="frame" x="20" y="11.5" width="192.5" height="20.5"/>
@@ -425,6 +428,22 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1900.0000000000002" y="116.51785714285714"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="uhj-ow-QUK">
+            <objects>
+                <viewController id="x6j-yN-tU7" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="K3K-Ia-sz3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="X1f-M7-yYH"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="HGR-cj-CjI"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yeV-tB-QrA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2690" y="117"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="b17-ZE-Vfn">
