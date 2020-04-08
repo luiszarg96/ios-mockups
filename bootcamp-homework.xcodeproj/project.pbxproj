@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		11AE7B07343417564BAA0DB0 /* Pods_bootcamp_homeworkTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD9D86DE35F0663E01EA53F1 /* Pods_bootcamp_homeworkTests.framework */; };
 		BB72D52A24352A4D005499AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB72D52924352A4D005499AB /* AppDelegate.swift */; };
 		BB72D52C24352A4D005499AB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB72D52B24352A4D005499AB /* SceneDelegate.swift */; };
 		BB72D52E24352A4D005499AB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB72D52D24352A4D005499AB /* ViewController.swift */; };
@@ -15,6 +16,8 @@
 		BB72D53624352A54005499AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB72D53424352A54005499AB /* LaunchScreen.storyboard */; };
 		BB72D54124352A55005499AB /* bootcamp_homeworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB72D54024352A55005499AB /* bootcamp_homeworkTests.swift */; };
 		BB72D54C24352A56005499AB /* bootcamp_homeworkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB72D54B24352A56005499AB /* bootcamp_homeworkUITests.swift */; };
+		D1F5E0BA2C34EF082C600205 /* Pods_bootcamp_homework_bootcamp_homeworkUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4E8CFB23DAAA438E4BBEDB5 /* Pods_bootcamp_homework_bootcamp_homeworkUITests.framework */; };
+		E1D59196CA48B4AFF2DF04DB /* Pods_bootcamp_homework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8735C64412B0754561272BD3 /* Pods_bootcamp_homework.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1DD2FAC5D42E4F951B4FD9B7 /* Pods-bootcamp-homework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bootcamp-homework.debug.xcconfig"; path = "Target Support Files/Pods-bootcamp-homework/Pods-bootcamp-homework.debug.xcconfig"; sourceTree = "<group>"; };
+		3CE3093835CFA4249A997FB2 /* Pods-bootcamp-homework-bootcamp-homeworkUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bootcamp-homework-bootcamp-homeworkUITests.release.xcconfig"; path = "Target Support Files/Pods-bootcamp-homework-bootcamp-homeworkUITests/Pods-bootcamp-homework-bootcamp-homeworkUITests.release.xcconfig"; sourceTree = "<group>"; };
+		544FD89BC046319CDEC604EF /* Pods-bootcamp-homeworkTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bootcamp-homeworkTests.debug.xcconfig"; path = "Target Support Files/Pods-bootcamp-homeworkTests/Pods-bootcamp-homeworkTests.debug.xcconfig"; sourceTree = "<group>"; };
+		596B1B760A17926D272F6999 /* Pods-bootcamp-homework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bootcamp-homework.release.xcconfig"; path = "Target Support Files/Pods-bootcamp-homework/Pods-bootcamp-homework.release.xcconfig"; sourceTree = "<group>"; };
+		8735C64412B0754561272BD3 /* Pods_bootcamp_homework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_bootcamp_homework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D9D72ACEB31A9FCB87B733B /* Pods-bootcamp-homeworkTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bootcamp-homeworkTests.release.xcconfig"; path = "Target Support Files/Pods-bootcamp-homeworkTests/Pods-bootcamp-homeworkTests.release.xcconfig"; sourceTree = "<group>"; };
+		B4E8CFB23DAAA438E4BBEDB5 /* Pods_bootcamp_homework_bootcamp_homeworkUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_bootcamp_homework_bootcamp_homeworkUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB72D52624352A4D005499AB /* bootcamp-homework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "bootcamp-homework.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB72D52924352A4D005499AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BB72D52B24352A4D005499AB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +59,8 @@
 		BB72D54724352A56005499AB /* bootcamp-homeworkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "bootcamp-homeworkUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB72D54B24352A56005499AB /* bootcamp_homeworkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bootcamp_homeworkUITests.swift; sourceTree = "<group>"; };
 		BB72D54D24352A56005499AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBD250B6ABC9C87F2FA148FB /* Pods-bootcamp-homework-bootcamp-homeworkUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bootcamp-homework-bootcamp-homeworkUITests.debug.xcconfig"; path = "Target Support Files/Pods-bootcamp-homework-bootcamp-homeworkUITests/Pods-bootcamp-homework-bootcamp-homeworkUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FD9D86DE35F0663E01EA53F1 /* Pods_bootcamp_homeworkTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_bootcamp_homeworkTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1D59196CA48B4AFF2DF04DB /* Pods_bootcamp_homework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11AE7B07343417564BAA0DB0 /* Pods_bootcamp_homeworkTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +84,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1F5E0BA2C34EF082C600205 /* Pods_bootcamp_homework_bootcamp_homeworkUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		335502C0743EEDB4D00B7E00 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1DD2FAC5D42E4F951B4FD9B7 /* Pods-bootcamp-homework.debug.xcconfig */,
+				596B1B760A17926D272F6999 /* Pods-bootcamp-homework.release.xcconfig */,
+				BBD250B6ABC9C87F2FA148FB /* Pods-bootcamp-homework-bootcamp-homeworkUITests.debug.xcconfig */,
+				3CE3093835CFA4249A997FB2 /* Pods-bootcamp-homework-bootcamp-homeworkUITests.release.xcconfig */,
+				544FD89BC046319CDEC604EF /* Pods-bootcamp-homeworkTests.debug.xcconfig */,
+				9D9D72ACEB31A9FCB87B733B /* Pods-bootcamp-homeworkTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8724B1645B38D578CB84D2E4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8735C64412B0754561272BD3 /* Pods_bootcamp_homework.framework */,
+				B4E8CFB23DAAA438E4BBEDB5 /* Pods_bootcamp_homework_bootcamp_homeworkUITests.framework */,
+				FD9D86DE35F0663E01EA53F1 /* Pods_bootcamp_homeworkTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BB72D51D24352A4D005499AB = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +122,8 @@
 				BB72D53F24352A55005499AB /* bootcamp-homeworkTests */,
 				BB72D54A24352A56005499AB /* bootcamp-homeworkUITests */,
 				BB72D52724352A4D005499AB /* Products */,
+				335502C0743EEDB4D00B7E00 /* Pods */,
+				8724B1645B38D578CB84D2E4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -135,9 +176,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BB72D55024352A56005499AB /* Build configuration list for PBXNativeTarget "bootcamp-homework" */;
 			buildPhases = (
+				AD8BE9582188DD227E8C9214 /* [CP] Check Pods Manifest.lock */,
 				BB72D52224352A4D005499AB /* Sources */,
 				BB72D52324352A4D005499AB /* Frameworks */,
 				BB72D52424352A4D005499AB /* Resources */,
+				F76B45012680D52A59D50445 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +195,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BB72D55324352A56005499AB /* Build configuration list for PBXNativeTarget "bootcamp-homeworkTests" */;
 			buildPhases = (
+				05BF4A0EA589E6896FEB5588 /* [CP] Check Pods Manifest.lock */,
 				BB72D53824352A55005499AB /* Sources */,
 				BB72D53924352A55005499AB /* Frameworks */,
 				BB72D53A24352A55005499AB /* Resources */,
@@ -170,9 +214,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BB72D55624352A56005499AB /* Build configuration list for PBXNativeTarget "bootcamp-homeworkUITests" */;
 			buildPhases = (
+				E043965613FEC19FEEF6E2C6 /* [CP] Check Pods Manifest.lock */,
 				BB72D54324352A56005499AB /* Sources */,
 				BB72D54424352A56005499AB /* Frameworks */,
 				BB72D54524352A56005499AB /* Resources */,
+				B36C5CB0031AACF6BDCBD1CA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -253,6 +299,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		05BF4A0EA589E6896FEB5588 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-bootcamp-homeworkTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD8BE9582188DD227E8C9214 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-bootcamp-homework-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B36C5CB0031AACF6BDCBD1CA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-bootcamp-homework-bootcamp-homeworkUITests/Pods-bootcamp-homework-bootcamp-homeworkUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-bootcamp-homework-bootcamp-homeworkUITests/Pods-bootcamp-homework-bootcamp-homeworkUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-bootcamp-homework-bootcamp-homeworkUITests/Pods-bootcamp-homework-bootcamp-homeworkUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E043965613FEC19FEEF6E2C6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-bootcamp-homework-bootcamp-homeworkUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F76B45012680D52A59D50445 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-bootcamp-homework/Pods-bootcamp-homework-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-bootcamp-homework/Pods-bootcamp-homework-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-bootcamp-homework/Pods-bootcamp-homework-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		BB72D52224352A4D005499AB /* Sources */ = {
@@ -432,6 +581,7 @@
 		};
 		BB72D55124352A56005499AB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1DD2FAC5D42E4F951B4FD9B7 /* Pods-bootcamp-homework.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -449,6 +599,7 @@
 		};
 		BB72D55224352A56005499AB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 596B1B760A17926D272F6999 /* Pods-bootcamp-homework.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -466,6 +617,7 @@
 		};
 		BB72D55424352A56005499AB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 544FD89BC046319CDEC604EF /* Pods-bootcamp-homeworkTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -487,6 +639,7 @@
 		};
 		BB72D55524352A56005499AB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D9D72ACEB31A9FCB87B733B /* Pods-bootcamp-homeworkTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +661,7 @@
 		};
 		BB72D55724352A56005499AB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBD250B6ABC9C87F2FA148FB /* Pods-bootcamp-homework-bootcamp-homeworkUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -527,6 +681,7 @@
 		};
 		BB72D55824352A56005499AB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CE3093835CFA4249A997FB2 /* Pods-bootcamp-homework-bootcamp-homeworkUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
