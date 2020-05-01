@@ -34,6 +34,12 @@ class ViewController: UIViewController {
         
         //hide informacion adicional section
         ocultarBtnTapped(true)
+        
+        //set back button title and color to empty string for the next navigation screen
+        let backBarBtnItem = UIBarButtonItem()
+        backBarBtnItem.title = ""
+        navigationItem.backBarButtonItem = backBarBtnItem
+        self.navigationController?.navigationBar.tintColor = UIColor.white
     }
     
     

@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -16,6 +16,7 @@
 		BB72D53624352A54005499AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB72D53424352A54005499AB /* LaunchScreen.storyboard */; };
 		BB72D54124352A55005499AB /* bootcamp_homeworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB72D54024352A55005499AB /* bootcamp_homeworkTests.swift */; };
 		BB72D54C24352A56005499AB /* bootcamp_homeworkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB72D54B24352A56005499AB /* bootcamp_homeworkUITests.swift */; };
+		BB72D55A243E2CBA005499AB /* MovimientosVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB72D559243E2CBA005499AB /* MovimientosVC.swift */; };
 		D1F5E0BA2C34EF082C600205 /* Pods_bootcamp_homework_bootcamp_homeworkUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4E8CFB23DAAA438E4BBEDB5 /* Pods_bootcamp_homework_bootcamp_homeworkUITests.framework */; };
 		E1D59196CA48B4AFF2DF04DB /* Pods_bootcamp_homework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8735C64412B0754561272BD3 /* Pods_bootcamp_homework.framework */; };
 /* End PBXBuildFile section */
@@ -59,6 +60,7 @@
 		BB72D54724352A56005499AB /* bootcamp-homeworkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "bootcamp-homeworkUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB72D54B24352A56005499AB /* bootcamp_homeworkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bootcamp_homeworkUITests.swift; sourceTree = "<group>"; };
 		BB72D54D24352A56005499AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB72D559243E2CBA005499AB /* MovimientosVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovimientosVC.swift; sourceTree = "<group>"; };
 		BBD250B6ABC9C87F2FA148FB /* Pods-bootcamp-homework-bootcamp-homeworkUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bootcamp-homework-bootcamp-homeworkUITests.debug.xcconfig"; path = "Target Support Files/Pods-bootcamp-homework-bootcamp-homeworkUITests/Pods-bootcamp-homework-bootcamp-homeworkUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		FD9D86DE35F0663E01EA53F1 /* Pods_bootcamp_homeworkTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_bootcamp_homeworkTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -101,7 +103,6 @@
 				544FD89BC046319CDEC604EF /* Pods-bootcamp-homeworkTests.debug.xcconfig */,
 				9D9D72ACEB31A9FCB87B733B /* Pods-bootcamp-homeworkTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -147,6 +148,7 @@
 				BB72D53224352A54005499AB /* Assets.xcassets */,
 				BB72D53424352A54005499AB /* LaunchScreen.storyboard */,
 				BB72D53724352A54005499AB /* Info.plist */,
+				BB72D559243E2CBA005499AB /* MovimientosVC.swift */,
 			);
 			path = "bootcamp-homework";
 			sourceTree = "<group>";
@@ -409,6 +411,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BB72D52E24352A4D005499AB /* ViewController.swift in Sources */,
+				BB72D55A243E2CBA005499AB /* MovimientosVC.swift in Sources */,
 				BB72D52A24352A4D005499AB /* AppDelegate.swift in Sources */,
 				BB72D52C24352A4D005499AB /* SceneDelegate.swift in Sources */,
 			);
