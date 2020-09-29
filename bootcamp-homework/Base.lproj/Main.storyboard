@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="C1x-r9-1u1">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.3" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="C1x-r9-1u1">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -421,6 +421,7 @@
                         <outlet property="informacionAdicionalContainerView" destination="KwJ-eO-FEU" id="UzX-fa-f6S"/>
                         <outlet property="mainContainer" destination="X3k-xj-LxQ" id="zQF-Xw-enQ"/>
                         <outlet property="ocultarBtn" destination="gzd-dc-eBQ" id="doh-co-yrc"/>
+                        <outlet property="tableViewHeightConstraint" destination="4hG-MZ-JeB" id="d9R-J0-0np"/>
                         <outlet property="transaccionesTable" destination="4KD-A0-FlK" id="7Qc-na-vi0"/>
                         <outlet property="viewContainer" destination="oMb-Db-BNs" id="TK3-T1-42G"/>
                     </connections>

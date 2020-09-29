@@ -21,6 +21,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var containerHeightConstraint: NSLayoutConstraint!
     @IBOutlet weak var transaccionesTable: UITableView!
     @IBOutlet weak var creditoDisponibleProgressBar: UIProgressView!
+    @IBOutlet weak var tableViewHeightConstraint: NSLayoutConstraint!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -78,7 +79,7 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource{
             return 1
         }
         
-        return 3
+        return 10
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
@@ -91,7 +92,21 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource{
         return cell
     }
     
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 50
+    }
     
+    override func viewDidLayoutSubviews() {
+               var tableViewHeight: CGFloat = 0
+
+                for section in 0..<transaccionesTable.numberOfSections {
+                    for row in 0..<transaccionesTable.numberOfRows(inSection: section) {
+                        tableViewHeight += tableView(transaccionesTable, heightForRowAt: IndexPath(row: row, section: section))
+                    }
+                }
+        
+                tableViewHeightConstraint.constant = tableViewHeight
+    }
     
     
 }
